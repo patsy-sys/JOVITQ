@@ -1,0 +1,144 @@
+body{
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: #444;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.hero{
+    height: 90vh;
+    background: url('images/heroj.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: bottom;
+    color: white;
+    padding: 20px;
+    font-size: bold;
+}
+
+.hero-content{
+    background: rgba(97, 91, 91, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.section {
+    padding: 30px 15px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.stores {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 5px;
+    padding: 12px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.store-cards {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 15px rgba(0,0,0.1);
+    text-align: center;
+    width: 500px;
+    transition: transform 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.store-image{
+    width: 474px;
+    height: 315px;
+    border-radius: 10px;
+}
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    padding: 60px 20px;
+    text-wrap: balance;
+    background: rgb(203, 238, 203);
+}
+
+.about-title{
+    flex: 1 1 300px;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.about-image img{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50px;
+}
+.about-text{
+    flex:1;
+}
+
+.contact {
+    background: #444;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
