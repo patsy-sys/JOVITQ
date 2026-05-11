@@ -7,6 +7,32 @@ body{
 }
 
 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero-content {
+        padding: 20px;
+    }
+    .stores {
+        grid-template-columns: 1fr;
+    }
+    navbar ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    
+}
+
+header{
     background: #444;
     color: white;
     padding: 20px;
@@ -20,6 +46,7 @@ nav ul {
     display: flex;
     gap: 20px;
     color: white;
+    overflow: hidden;
 }
 
 .hero{
@@ -72,6 +99,7 @@ nav ul {
 .stores {
     display: grid;
     grid-template-columns: repeat(2, 3fr);
+    flex-wrap: wrap;
     gap: 5px;
     padding: 12px;
     position: relative;
@@ -85,7 +113,9 @@ nav ul {
     border-radius: 15px;
     box-shadow: 0 2px 15px rgba(0,0,0.1);
     text-align: center;
-    width: 500px;
+    width: 250px;
+    max-width: 100%;
+    overflow: hidden;
     transition: transform 0.3s ease;
     margin-bottom: 15px;
 }
