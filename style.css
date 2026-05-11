@@ -14,9 +14,6 @@ body{
     .hero-content {
         padding: 20px;
     }
-    .stores {
-        grid-template-columns: 1fr;
-    }
     navbar ul {
         flex-wrap: wrap;
         gap: 10px;
@@ -28,7 +25,7 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 15px 5%;
+    padding: auto 5%;
 }
 
     
@@ -45,7 +42,7 @@ header{
 
 nav ul {
     list-style: none;
-    display: flex;
+    display: inline-flex;
     gap: 20px;
     color: white;
     overflow: hidden;
